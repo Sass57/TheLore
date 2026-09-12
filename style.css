@@ -489,3 +489,58 @@ input:checked + .slider:before {
 
 .sources-grid { display: flex; flex-wrap: wrap; gap: 0.6rem; }
    
+
+/* Forrás linkek */
+.source-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: rgba(230, 25, 32, 0.12);
+  color: #ff999b;
+  border: 1px solid rgba(230, 25, 32, 0.3);
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.source-link:hover {
+  background: rgba(230, 25, 32, 0.28);
+  border-color: var(--accent-red);
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+/* Mobil reszponzivitás */
+@media (max-width: 850px) {
+  .header-container { padding: 1rem; }
+  .brand h1 { font-size: 1.8rem; letter-spacing: 2px; }
+  .controls-wrapper { flex-direction: column; align-items: stretch; gap: 0.75rem; }
+  .search-box, .filter-group { width: 100%; flex: 1 1 100%; }
+  .filter-group { flex-direction: column; }
+  .filter-group select { width: 100%; }
+  .toggle-group { justify-content: flex-start; }
+
+  .main-content { margin: 1.5rem auto; padding: 0 1rem; }
+  .timeline-container::before { left: 18px; }
+  .timeline-item { width: 100%; padding-left: 2.8rem; padding-right: 0; margin-bottom: 1.8rem; }
+  .timeline-item.left, .timeline-item.right { left: 0; text-align: left; }
+  .timeline-item.left .timeline-node, .timeline-item.right .timeline-node { left: 9px; right: auto; }
+  .timeline-item.left .card-header-line { justify-content: flex-start; }
+}
+
+@media (max-width: 480px) {
+  .main-content { padding: 0 0.5rem; }
+  .timeline-container::before { left: 12px; }
+  .timeline-item { padding-left: 2rem; }
+  .timeline-item.left .timeline-node, .timeline-item.right .timeline-node { left: 3px; width: 16px; height: 16px; }
+  .card { padding: 1rem; }
+  .card-title { font-size: 1.05rem; }
+  .card-header-line { flex-direction: column; align-items: flex-start; gap: 0.35rem; }
+  .date-pill { font-size: 0.8rem; }
+  .modal-overlay { padding: 0.75rem; }
+  .modal-card { padding: 1.25rem; }
+  .modal-header h2 { font-size: 1.3rem; }
+}
