@@ -135,3 +135,22 @@ function applyFilters() {
 
   renderTimeline(filtered);
 }
+
+// Modal felugró ablak megnyitása
+window.openModal = function(id) {
+  const event = eventsData.find(e => e.id === id);
+  if (!event || !modalOverlay) return;
+
+  modalTitle.textContent = event.title;
+  modalCategory.className = `badge ${getCategoryClass(event.category)}`;
+  modalCategory.textContent = event.category;
+  modalDate.textContent = formatYear(event.year, event.month);
+  modalDesc.textContent = event.fullDesc;
+
+  // Média (kép vagy beágyazott videó)
+  modalMedia.innerHTML = '';
+  if (event.mediaType === 'image' && event.mediaUrl) {
+    modalMedia.innerHTML = `<img src="${event.mediaUrl}" alt="${event.title}" referrerpolicy="no-referrer" loading="lazy">`;
+  } else if (event.mediaType === 'video' && event.mediaUrl) {
+    modalMedia.innerHTML = `<iframe src="${event.mediaUrl}" title="${event.title}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+  }
