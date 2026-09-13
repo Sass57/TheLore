@@ -2,38 +2,92 @@
 <html lang="hu">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Világtörténelmi Idővonal</title>
-    <meta name="referrer" content="no-referrer">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Világtörténelmi Idővonal</title>
+  <meta name="referrer" content="no-referrer">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
-        <div class="header-container">
-            <div class="brand">
-                <h1>THE LORE</h1>
-                <div class="subtitle">Interaktív Világtörténelmi Idővonal</div>
-            </div>
+  <header>
+    <div class="header-container">
+      <div class="brand">
+        <h1>THE LORE</h1>
+        <div class="subtitle">Interaktív Világtörténelmi Idővonal</div>
+      </div>
 
-            <div class="controls-wrapper">
-                <div class="search-box">
-                    <span class="search-icon">🔍</span>
-                    <input type="text" id="search-input" placeholder="Keresés az események között...">
-                </div>
+      <div class="controls-wrapper">
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="search-input" placeholder="Keresés az események között...">
+        </div>
 
-                <div class="filter-group">
-                    <select id="era-filter">
-                        <option value="all">Minden korszak</option>
-                    </select>
+        <div class="filter-group">
+          <select id="era-filter">
+            <option value="all">Minden korszak</option>
+          </select>
 
-                    <select id="sort-filter">
-                        <option value="asc">Időrendben (Elölről hátra)</option>
-                        <option value="desc">Fordított sorrend (Újtól a régi felé)</option>
-                    </select>
+          <select id="sort-filter">
+            <option value="asc">Időrendben (Elölről hátra)</option>
+            <option value="desc">Fordított sorrend (Újtól a régi felé)</option>
+          </select>
 
+          <div class="toggle-group">
+            <label class="switch">
+              <input type="checkbox" id="milestone-toggle">
+              <span class="slider"></span>
+            </label>
+            <span class="toggle-label">Csak mérföldkövek</span>
+          </div>
+        </div>
+      </div>
+      <div class="toggle-group">
+        <label class="switch">
+          <input type="checkbox" id="month-toggle" checked>
+          <span class="slider"></span>
+        </label>
+        <span class="toggle-label">Hónap megjelenítése</span>
+      </div>
+      <div class="stats-bar">
+        Megjelenítve: <span id="count-display">0</span> esemény
+      </div>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <div class="timeline-container" id="timeline-container">
+      <!-- A kártyákat a JavaScript rajzolja ki ide -->
+    </div>
+  </main>
+
+  <!-- Modal felugró ablak -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal-card">
+      <button class="close-btn" id="close-modal" aria-label="Bezárás">&times;</button>
+      <div class="modal-header">
+        <div class="card-header-line">
+          <span class="badge" id="modal-category"></span>
+          <span class="date-pill" id="modal-date"></span>
+        </div>
+        <h2 id="modal-title"></h2>
+      </div>
+      <div class="modal-media" id="modal-media"></div>
+      <div class="modal-body">
+        <p id="modal-desc"></p>
+      </div>
+      <div class="modal-footer"
+        style="margin-top: 1.5rem; border-top: 1px solid var(--border-color); padding-top: 1rem;">
+        <h4
+          style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.6rem; text-transform: uppercase; letter-spacing: 0.5px;">
+          Források és hivatkozások:</h4>
+        <div class="sources-grid" id="modal-sources"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
