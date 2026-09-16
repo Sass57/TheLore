@@ -193,3 +193,22 @@ document.addEventListener('keydown', (e) => {
   }
 });
 
+// Eseménykezelők hozzárendelése
+if (searchInput) searchInput.addEventListener('input', applyFilters);
+if (eraFilter) eraFilter.addEventListener('change', applyFilters);
+
+if (sortFilter) {
+  sortFilter.addEventListener('change', applyFilters);
+  sortFilter.addEventListener('input', applyFilters);
+}
+
+if (milestoneToggle) {
+  milestoneToggle.addEventListener('change', applyFilters);
+}
+
+if (monthToggle) {
+  monthToggle.addEventListener('change', applyFilters);
+}
+// Inicializálás
+initTimeline();
+
