@@ -87,3 +87,32 @@ select {
   border-radius: 10px;
   cursor: pointer;
 }
+
+.timeline-container::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: linear-gradient(to bottom, transparent, var(--accent-red), var(--accent-red-bright), transparent);
+  transform: translateX(-50%);
+}
+
+.timeline-node {
+  position: absolute;
+  top: 20px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--bg-main);
+  border: 3px solid var(--accent-red);
+  box-shadow: 0 0 10px var(--accent-red);
+  z-index: 2;
+  transition: transform 0.2s;
+}
+
+.timeline-item:hover .timeline-node {
+  transform: scale(1.3);
+  background: var(--accent-red-bright);
+}
