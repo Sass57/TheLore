@@ -140,3 +140,30 @@ select {
   background: rgba(139, 92, 246, 0.15);
   color: var(--era-kozepkor);
 }
+
+.modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.88);
+  backdrop-filter: blur(8px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.modal-overlay.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal-card {
+  background: var(--bg-card);
+  border: 1px solid rgba(230, 25, 32, 0.4);
+  max-width: 720px;
+  border-radius: 18px;
+  padding: 2rem;
+}
