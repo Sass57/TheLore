@@ -100,3 +100,38 @@ function populateCategoryFilter() {
     eraFilter.appendChild(option);
   });
 }
+
+// Szűrés és dinamikus rendezés
+function applyFilters() {
+  const searchTerm = searchInput ? searchInput.value.toLowerCase().trim() : '';
+  const selectedCategory = eraFilter ? eraFilter.value : 'all';
+  const milestonesOnly = milestoneToggle ? milestoneToggle.checked : false;
+
+  // Friss választott érték kiolvasása a sorrendválasztóból
+  const currentSortFilter = document.getElementById('sort-filter');
+  const sortVal = currentSortFilter ? currentSortFilter.value.toLowerCase().trim() : 'asc';
+  const isDescending = sortVal === 'desc' || sortVal.includes('desc') || sortVal.includes('forditott');
+
+  // Szűrési logika
+  let filtered = eventsData.filter(event => {
+    const matchesSearch = event.title.toLowerCase().includes(searchTerm) ||
+                          event.shortDesc.toLowerCase().includes(searchTerm) ||
+                          event.fullDesc.toLowerCase().includes(searchTerm);
+    const matchesCategory = selectedCategory === 'all' || event.category === selectedCategory;
+    const matchesMilestone = !milestonesOnly || event.importance === 'major';
+
+    return matchesSearch && matchesCategory && matchesMilestone;
+  });
+
+  // Rendezési logika (Évszám, majd hónap alapján)
+  filtered.sort((a, b) => {
+    if (a.year !== b.year) {
+      return isDescending ? b.year - a.year : a.year - b.year;
+    }
+    const monthA = a.month || 0;
+    const monthB = b.month || 0;
+    return isDescending ? monthB - monthA : monthA - monthB;
+  });
+
+  renderTimeline(filtered);
+}
