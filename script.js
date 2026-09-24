@@ -85,3 +85,18 @@ async function initTimeline() {
     }
   }
 }
+
+// Korszak választó lista dinamikus feltöltése a meglévő adatokból
+function populateCategoryFilter() {
+  if (!eraFilter) return;
+ 
+  eraFilter.innerHTML = '<option value="all">Minden korszak</option>';
+ 
+  const categories = [...new Set(eventsData.map(e => e.category))];
+  categories.forEach(cat => {
+    const option = document.createElement('option');
+    option.value = cat;
+    option.textContent = cat;
+    eraFilter.appendChild(option);
+  });
+}
