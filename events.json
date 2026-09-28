@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "title": "A Föld bolygó kialakulása",
+    "year": -4500000000,
+    "month": null,
+    "category": "Prehisztórium",
+    "importance": "major",
+    "shortDesc": "A Napsugárzás hatására összefényesedő gáz- és porfelhőkből létrejön a Föld bolygó.",
+    "fullDesc": "Körülbelül 4,5 milliárd évvel ezelőtt a fiatal Naptól megmaradt por- és gázfelhő szemcséi összeütköztek. Ebből a folyamatból jött létre a fiatal Föld, amely kezdetben egy forró, izzó kőzetbolygó volt.",
+    "mediaType": "image",
+    "mediaUrl": "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?auto=format&fit=crop&w=1200&q=80",
+    "sources": [
+      { "name": "Wikipédia - A Föld keletkezése és története", "url": "https://hu.wikipedia.org/wiki/F%C3%B6ld#Keletkez%C3%A9se_%C3%A9s_t%C3%B6rt%C3%A9nete" },
+      { "name": "NASA - Earth Overview", "url": "https://science.nasa.gov/earth/" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Az élet megjelenése az ősóceánban",
+    "year": -3800000000,
+    "month": null,
+    "category": "Prehisztórium",
+    "importance": "major",
+    "shortDesc": "Megjelennek a legelső egysejtű prokaróta élőlények a Föld óceánjaiban.",
+    "fullDesc": "Az ősóceánok mélyén található hidrotermális kürtők környékén szerves molekulákból álló láncok révén megjelentek az első mikroszkopikus élőlények.",
+    "mediaType": "image",
+    "mediaUrl": "https://teremtestudomany.hu/wp-content/uploads/2015/05/Timeline_evolution_of_life_freewiki.png",
+    "sources": [
+      { "name": "Wikipédia - Az élet keletkezése", "url": "https://hu.wikipedia.org/wiki/Az_%C3%A9let_keletkez%C3%A9se" },
+      { "name": "Encyclopædia Britannica - Origin of Life", "url": "https://www.britannica.com/science/origin-of-life" }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "A Dinoszauruszok Kihalása (K-Pg esemény)",
+    "year": -66000000,
+    "month": null,
+    "category": "Prehisztórium",
+    "importance": "major",
+    "shortDesc": "Egy 10 km átmérőjű meteorit becsapódása véget vet a dinoszauruszok 180 millió éves uralmának.",
+    "fullDesc": "A mai Mexikói-öböl területén becsapódott óriási aszteroida globális hamufelhőt és éghajlatváltozást okozott, ami a fajok 75%-ának kihalásához vezetett.",
+    "mediaType": "image",
+    "mediaUrl": "https://static.magyarhirlap.hu/images/202601/049-f0326250.jpg",
+    "sources": [
+      { "name": "Wikipédia - Kréta–tercier kihalási esemény", "url": "https://hu.wikipedia.org/wiki/Kr%C3%A9ta%E2%80%93tercier_kihal%C3%A1si_esem%C3%A9ny" },
+      { "name": "Encyclopædia Britannica - K-T Extinction", "url": "https://www.britannica.com/science/K-T-extinction" }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "A modern ember (Homo sapiens) megjelenése",
+    "year": -300000,
+    "month": null,
+    "category": "Prehisztórium",
+    "importance": "major",
+    "shortDesc": "Afrikában kifejlődik az anatómiailag modern emberi faj.",
+    "fullDesc": "A mai Marokkó területén talált legősibb Homo sapiens maradványok tanúsága szerint fajunk körülbelül 300 000 évvel ezelőtt alakult ki Afrikában.",
+    "mediaType": "image",
+    "mediaUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuxXEIGZNE0FQOMJThu1MRyLoyA5G0plrBJ5n3KzgOFEz3TOuieRWo23s&s=10",
+    "sources": [
+      { "name": "Wikipédia - Emberré válás", "url": "https://hu.wikipedia.org/wiki/Emberr%C3%A9_v%C3%A1l%C3%A1s" },
+      { "name": "Smithsonian - Introduction to Human Evolution", "url": "https://humanorigins.si.edu/education/introduction-human-evolution" }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "A Neolitikus Forradalom",
+    "year": -10000,
+    "month": null,
+    "category": "Prehisztórium",
+    "importance": "major",
+    "shortDesc": "Az áttérés a vadászó-gyűjtögető életmódról a mezőgazdaságra és állattenyésztésre.",
+    "fullDesc": "A növénytermesztés és az állatok háziasítása lehetővé tette a letelepedett életmódot és az első városhálózatok kialakulását.",
+    "mediaType": "image",
+    "mediaUrl": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=80",
+    "sources": [
+      { "name": "Wikipédia - Neolitikus forradalom", "url": "https://hu.wikipedia.org/wiki/Neolitikus_forradalom" },
+      { "name": "Encyclopædia Britannica - Neolithic", "url": "https://www.britannica.com/event/Neolithic" }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Az írás feltalálása Mezopotámiában",
+    "year": -3300,
+    "month": null,
+    "category": "Ókor",
+    "importance": "major",
+    "shortDesc": "A sumer ékírás kifejlődésével kezdetét veszi az írott világtörténelem.",
+    "fullDesc": "Uruk városában a kereskedelmi nyilvántartások megkönnyítésére agyagtáblákba karcolt jeleket kezdtek használni.",
+    "mediaType": "image",
+    "mediaUrl": "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=1200&q=80",
+    "sources": [
+      { "name": "Wikipédia - Ékírás", "url": "https://hu.wikipedia.org/wiki/%C3%89k%C3%ADr%C3%A1s" },
+      { "name": "World History Encyclopedia - Cuneiform", "url": "https://www.worldhistory.org/cuneiform/" }
+    ]
+  }
+]
