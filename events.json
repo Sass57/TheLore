@@ -94,5 +94,101 @@
       { "name": "Wikipédia - Ékírás", "url": "https://hu.wikipedia.org/wiki/%C3%89k%C3%ADr%C3%A1s" },
       { "name": "World History Encyclopedia - Cuneiform", "url": "https://www.worldhistory.org/cuneiform/" }
     ]
+  },
+    {
+    "id": 7,
+    "title": "A Gízai Nagy Piramis megépítése",
+    "year": -2560,
+    "month": null,
+    "category": "Ókor",
+    "importance": "minor",
+    "shortDesc": "Khufu (Kheopsz) fáraó hatalmas síremlékének befejezése Egyiptomban.",
+    "fullDesc": "Több mint 2,3 millió kőtömbből épült fel az ókori világ hét csodájának leghíresebbike.",
+    "mediaType": "image",
+    "mediaUrl": "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?auto=format&fit=crop&w=1200&q=80",
+    "sources": [
+      { "name": "Wikipédia - Gízai nagy piramis", "url": "https://hu.wikipedia.org/wiki/G%C3%ADzai_nagy_piramis" },
+      { "name": "Encyclopædia Britannica - Pyramids of Giza", "url": "https://www.britannica.com/topic/Pyramids-of-Giza" }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Az Athéni Demokrácia megszületése",
+    "year": -508,
+    "month": null,
+    "category": "Ókor",
+    "importance": "minor",
+    "shortDesc": "Kleiszthenész reformjai megteremtik a világ első közvetlen demokráciáját.",
+    "fullDesc": "Az athéni polgárok számára biztosították a jogot, hogy közvetlenül szavazhassanak a törvényekről.",
+    "mediaType": "image",
+    "mediaUrl": "https://images.unsplash.com/photo-1555993539-1732b0258235?auto=format&fit=crop&w=1200&q=80",
+    "sources": [
+      { "name": "Wikipédia - Athéni demokrácia", "url": "https://hu.wikipedia.org/wiki/Ath%C3%A9ni_demokr%C3%A1cia" },
+      { "name": "World History Encyclopedia - Athenian Democracy", "url": "https://www.worldhistory.org/Athenian_Democracy/" }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "A Nyugatrómai Birodalom Bukása",
+    "year": 476,
+    "month": 9,
+    "category": "Ókor",
+    "importance": "minor",
+    "shortDesc": "Odoaker germán hadvezér megbuktatja az utolsó római császárt.",
+    "fullDesc": "Romulus Augustulus trónfosztása jelenti a klasszikus ókor végét és a középkor kezdetét Európában.",
+    "mediaType": "image",
+    "mediaUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4qrkofIfMof-7lKZZ-6RrYxo12fAtp0kG6V___Z5-DjiFMDA2hDOVkzVN&s=10",
+    "sources": [
+      { "name": "Wikipédia - Nyugatrómai Birodalom", "url": "https://hu.wikipedia.org/wiki/Nyugatr%C3%B3mai_Birodalom" },
+      { "name": "World History Encyclopedia - Fall of the Western Roman Empire", "url": "https://www.worldhistory.org/article/835/fall-of-the-western-roman-empire/" }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Az Iszlám Vallás Megszületése (Hidzsra)",
+    "year": 622,
+    "month": 9,
+    "category": "Középkor",
+    "importance": "minor",
+    "shortDesc": "Mohamed próféta áttelepülése Mekkából Medinába, az iszlám időszámítás kezdete.",
+    "fullDesc": "Az Arab-félsziget törzseinek egyesülésével egy világméretű tudományos és kulturális birodalom jött létre.",
+    "mediaType": "image",
+    "mediaUrl": "https://www.tortenelemmindenkinek.hu/wp-content/uploads/2024/11/960px-Kaaba2.jpg",
+    "sources": [
+      { "name": "Wikipédia - Hidzsra", "url": "https://hu.wikipedia.org/wiki/Hidzsra_(iszl%C3%A1m)" },
+      { "name": "Encyclopædia Britannica - Hijrah", "url": "https://www.britannica.com/event/Hijrah-Islamic-history" }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "A Könyvnyomtatás Feltalálása",
+    "year": 1440,
+    "month": null,
+    "category": "Középkor",
+    "importance": "major",
+    "shortDesc": "Johannes Gutenberg megalkotja a cserélhető betűs mozgatható könyvnyomtatást.",
+    "fullDesc": "A könyvek tömeggyártása elérhetővé tette a tudást, elősegítve a reneszánsz és a tudományos forradalom kibontakozását.",
+    "mediaType": "image",
+    "mediaUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa0SnW53L5Jst4e-vXD5zWbm_-h8V3hAG3gATUnWIh2g&s=10",
+    "sources": [
+      { "name": "Wikipédia - Johannes Gutenberg", "url": "https://hu.wikipedia.org/wiki/Johannes_Gutenberg" },
+      { "name": "Encyclopædia Britannica - Johannes Gutenberg", "url": "https://www.britannica.com/biography/Johannes-Gutenberg" }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Amerika Felfedezése",
+    "year": 1492,
+    "month": 10,
+    "category": "Újkor",
+    "importance": "major",
+    "shortDesc": "Kolumbusz Kristóf eléri a Karib-térséget, megnyitva az újkor kapuját.",
+    "fullDesc": "Spanyol zászló alatt hajózva megnyitotta a kontinensek közötti kereskedelmet és a gyarmatosítás korát.",
+    "mediaType": "image",
+    "mediaUrl": "https://s.24.hu/app/uploads/2026/05/gettyimages-1397987279-e1778137373462.jpg",
+    "sources": [
+      { "name": "Wikipédia - Amerika felfedezése", "url": "https://hu.wikipedia.org/wiki/Amerika_felfedez%C3%A9se" },
+      { "name": "Encyclopædia Britannica - Christopher Columbus", "url": "https://www.britannica.com/biography/Christopher-Columbus" }
+    ]
   }
 ]
