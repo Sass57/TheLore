@@ -16,5 +16,23 @@
     "category": "Prehisztórium",
     "importance": "major",
     "shortDesc": "Egy 10 km átmérőjű meteorit becsapódása véget vet a dinoszauruszok 180 millió éves uralmának."
+  },
+  {
+    "id": 6,
+    "title": "Az írás feltalálása Mezopotámiában",
+    "year": -3300,
+    "category": "Ókor",
+    "importance": "major",
+    "shortDesc": "A sumer ékírás kifejlődésével kezdetét veszi az írott világtörténelem.",
+    "fullDesc": "Uruk városában a kereskedelmi nyilvántartások megkönnyítésére agyagtáblákba karcolt jeleket kezdtek használni."
+  },
+  {
+    "id": 8,
+    "title": "Az Athéni Demokrácia megszületése",
+    "year": -508,
+    "category": "Ókor",
+    "importance": "minor",
+    "shortDesc": "Kleiszthenész reformjai megteremtik a világ első közvetlen demokráciáját."
   }
 ]
+
