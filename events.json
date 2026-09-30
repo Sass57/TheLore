@@ -366,5 +366,53 @@
       { "name": "Wikipédia - Augustus római császár", "url": "https://hu.wikipedia.org/wiki/Augustus_r%C3%B3mai_cs%C3%A1sz%C3%A1r" },
       { "name": "Encyclopædia Britannica - Augustus", "url": "https://www.britannica.com/biography/Augustus-Roman-emperor" }
     ]
+  },
+    {
+    "id": 22,
+    "title": "A Fekete Halál Európában",
+    "year": 1347,
+    "month": 10,
+    "category": "Középkor",
+    "importance": "minor",
+    "shortDesc": "Pusztító pestisjárvány söpör végig a kontinensen, elpusztítva a lakosság harmadát.",
+    "fullDesc": "A genovai gályákon érkező bubópestis négy év alatt elpusztította Európa lakosságának harmadát. A fellépő munkaerőhiány és bérrobbanás megrengette a feudális jobbágyrendszert.",
+    "mediaType": "image",
+    "mediaUrl": "https://agytoro.hu/wp-content/uploads/2022/02/pestisdoktor-wikipedia-1024x576.jpg",
+    "sources": [
+      { "name": "Wikipédia - Fekete halál", "url": "https://hu.wikipedia.org/wiki/Fekete_hal%C3%A1l" },
+      { "name": "Encyclopædia Britannica - Black Death", "url": "https://www.britannica.com/event/Black-Death" }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Konstantinápoly Eleste",
+    "year": 1453,
+    "month": 5,
+    "category": "Középkor",
+    "importance": "minor",
+    "shortDesc": "II. Mehmed oszmán szultán beveszi Konstantinápolyt, véget vetve a Bizánci Birodalomnak.",
+    "fullDesc": "A Keletrómai Birodalom bukása és az oszmán vámok miatt a szárazföldi selyemút járhatatlanná vált, ami közvetlenül kényszerítette ki az új óceáni utak keresését India felé.",
+    "mediaType": "image",
+    "mediaUrl": "https://archeologia.hu/content/archeologia/296/w590/02.jpg",
+    "sources": [
+      { "name": "Wikipédia - Konstantinápoly eleste", "url": "https://hu.wikipedia.org/wiki/Konstantin%C3%A1poly_eleste" },
+      { "name": "Encyclopædia Britannica - Fall of Constantinople", "url": "https://www.britannica.com/event/Fall-of-Constantinople-1453" }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "A Protestáns Reformáció Kezdete",
+    "year": 1517,
+    "month": 10,
+    "category": "Újkor",
+    "importance": "minor",
+    "shortDesc": "Martin Luther közzéteszi 95 tételét Wittenbergben a búcsúcédulák ellen.",
+    "fullDesc": "A katolikus egyház reformjaként indult mozgalom átrendezte Európa vallási térképét, felgyorsította az anyanyelvi oktatást és a könyvnyomtatás tömegessé válását.",
+    "mediaType": "image",
+    "mediaUrl": "https://ng.24.hu/uploads/2022/11/GettyImages-515794749-e1668081936721.jpg",
+    "sources": [
+      { "name": "Wikipédia - Reformáció", "url": "https://hu.wikipedia.org/wiki/Reform%C3%A1ci%C3%B3" },
+      { "name": "Encyclopædia Britannica - Reformation", "url": "https://www.britannica.com/event/Reformation" }
+    ]
   }
 ]
