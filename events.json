@@ -302,5 +302,69 @@
       { "name": "Wikipédia - III. Alexandrosz makedón király", "url": "https://hu.wikipedia.org/wiki/III._Alexandrosz_maked%C3%B3n_kir%C3%A1ly" },
       { "name": "Encyclopædia Britannica - Alexander the Great", "url": "https://www.britannica.com/biography/Alexander-the-Great" }
     ]
+  },
+   {
+    "id": 18,
+    "title": "A Globális Űrkutatás Új Korszaka (2026)",
+    "year": 2026,
+    "month": 3,
+    "category": "Jelenkor",
+    "importance": "minor",
+    "shortDesc": "Az Artemis-program és a kereskedelmi űrállomások előretörése.",
+    "fullDesc": "A 2026-os év a mélyűrkutatás és a fenntartható holdi jelenlét előkészítésének központi mérföldköve.",
+    "mediaType": "image",
+    "mediaUrl": "https://images.unsplash.com/photo-1517976487492-5750f3195933?auto=format&fit=crop&w=1200&q=80",
+    "sources": [
+      { "name": "Wikipédia - Artemis-program", "url": "https://hu.wikipedia.org/wiki/Artemis-program" },
+      { "name": "NASA - Artemis Program", "url": "https://www.nasa.gov/artemisprogram" }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Nagy Sándor Hadjáratai",
+    "year": -334,
+    "month": 5,
+    "category": "Ókor",
+    "importance": "minor",
+    "shortDesc": "A makedón uralkodó meghódítja a Perzsa Birodalmat, elindítva a hellenizmus korszakát.",
+    "fullDesc": "Nagy Sándor alig egy évtized leforgása alatt az Indus folyóig terjesztette ki birodalmát. Hadjáratai nyomán a görög kultúra, tudomány és nyelv összefonódott a keleti civilizációkkal.",
+    "mediaType": "image",
+    "mediaUrl": "https://ma7media.storage.googleapis.com/sites/default/files/styles/nagykep_large/s3/migrated/pictures/egyeb-kepek-02/ma7-rivalisok-1.jpg.webp?itok=lWghPent",
+    "sources": [
+      { "name": "Wikipédia - III. Alexandrosz makedón király", "url": "https://hu.wikipedia.org/wiki/III._Alexandrosz_maked%C3%B3n_kir%C3%A1ly" },
+      { "name": "Encyclopædia Britannica - Alexander the Great", "url": "https://www.britannica.com/biography/Alexander-the-Great" }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "A Selyemút Kialakulása",
+    "year": -130,
+    "month": null,
+    "category": "Ókor",
+    "importance": "minor",
+    "shortDesc": "Kereskedelmi útvonalhálózat jön létre Kelet-Ázsia és a Földközi-tenger térsége között.",
+    "fullDesc": "A Han-dinasztia terjeszkedése révén kiépült úthálózat nemcsak az áruk (selyem, puskapor, papír), hanem a vallási és filozófiai eszmék áramlásának is fő csatornájává vált.",
+    "mediaType": "image",
+    "mediaUrl": "https://img.kinaon.com/ujselyemut.jpg",
+    "sources": [
+      { "name": "Wikipédia - Selyemút", "url": "https://hu.wikipedia.org/wiki/Selyem%C3%BAt" },
+      { "name": "UNESCO - About the Silk Roads", "url": "https://en.unesco.org/silkroad/about-silk-roads" }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "A Római Császárság Megszületése",
+    "year": -27,
+    "month": 1,
+    "category": "Ókor",
+    "importance": "minor",
+    "shortDesc": "Augustus lesz Róma első császára, lezárva a polgárháborúkat és elindítva a Pax Romanát.",
+    "fullDesc": "Octavianus Augustus néven megragadta az egyeduralmat, lezárva a köztársaság válságát. Létrehozta a modern európai jogrendet és infrastruktúrát máig formáló principátus rendszerét.",
+    "mediaType": "image",
+    "mediaUrl": "https://images.unsplash.com/photo-1529260830199-42c24126f198?auto=format&fit=crop&w=1200&q=80",
+    "sources": [
+      { "name": "Wikipédia - Augustus római császár", "url": "https://hu.wikipedia.org/wiki/Augustus_r%C3%B3mai_cs%C3%A1sz%C3%A1r" },
+      { "name": "Encyclopædia Britannica - Augustus", "url": "https://www.britannica.com/biography/Augustus-Roman-emperor" }
+    ]
   }
 ]
