@@ -33,6 +33,23 @@
     "category": "Ókor",
     "importance": "minor",
     "shortDesc": "Kleiszthenész reformjai megteremtik a világ első közvetlen demokráciáját."
+  },
+  {
+    "id": 11,
+    "title": "A Könyvnyomtatás Feltalálása",
+    "year": 1440,
+    "category": "Középkor",
+    "importance": "major",
+    "shortDesc": "Johannes Gutenberg megalkotja a cserélhető betűs mozgatható könyvnyomtatást."
+  },
+  {
+    "id": 12,
+    "title": "Amerika Felfedezése",
+    "year": 1492,
+    "month": 10,
+    "category": "Újkor",
+    "importance": "major",
+    "shortDesc": "Kolumbusz Kristóf eléri a Karib-térséget, megnyitva az újkor kapuját."
   }
 ]
 
