@@ -414,5 +414,53 @@
       { "name": "Wikipédia - Reformáció", "url": "https://hu.wikipedia.org/wiki/Reform%C3%A1ci%C3%B3" },
       { "name": "Encyclopædia Britannica - Reformation", "url": "https://www.britannica.com/event/Reformation" }
     ]
+  },
+    {
+    "id": 25,
+    "title": "A Francia Forradalom Kitörése",
+    "year": 1789,
+    "month": 7,
+    "category": "Újkor",
+    "importance": "minor",
+    "shortDesc": "A Bastille ostromával kezdetét veszi a modern demokráciák alapjait lerakó forradalom.",
+    "fullDesc": "A harmadik rend lázadása felszámolta az abszolutizmust. Az Emberi és Polgári Jogok Nyilatkozata lefektette a jogegyenlőség és az egyéni szabadságjogok egyetemes alapelveit.",
+    "mediaType": "image",
+    "mediaUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Jacques-Louis_David_-_Serment_du_Jeu_de_paume%2C_le_20_juin_1789_-_P67_-_mus%C3%A9e_Carnavalet_-_0.jpg?utm_source=hu.wikipedia.org&utm_campaign=index&utm_content=original",
+    "sources": [
+      { "name": "Wikipédia - Francia forradalom", "url": "https://hu.wikipedia.org/wiki/Francia_forradalom" },
+      { "name": "Encyclopædia Britannica - French Revolution", "url": "https://www.britannica.com/event/French-Revolution" }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "A Második Ipari Forradalom",
+    "year": 1870,
+    "month": null,
+    "category": "Modern Kor",
+    "importance": "minor",
+    "shortDesc": "A villamosítás, a belső égésű motorok és a vegyipar átalakítja a tömeggyártást.",
+    "fullDesc": "Az elektromos hálózatok, az acélgyártás és a futószalagos termelés elterjedése modern fogyasztói társadalmat és gyors ütemű urbanizációt eredményezett.",
+    "mediaType": "image",
+    "mediaUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjZqeP6Jg_vT4fFbw4tKNZr2HJBzJt_LjrRZPd7KJc0GSotGyLswNnt2Y&s=10",
+    "sources": [
+      { "name": "Wikipédia - Második ipari forradalom", "url": "https://hu.wikipedia.org/wiki/M%C3%A1sodik_ipari_forradalom" },
+      { "name": "History.com - Industrial Revolution", "url": "https://www.history.com/topics/industrial-revolution" }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "A Második Világháború és az Atomkor Kezdete",
+    "year": 1939,
+    "month": 9,
+    "category": "Modern Kor",
+    "importance": "major",
+    "shortDesc": "A történelem legpusztítóbb globális konfliktusa lezárásakor megjelenik az atomfegyver.",
+    "fullDesc": "A tengelyhatalmak és a szövetségesek összecsapása 1945-ben a hirosimai és nagaszaki atomtámadásokkal ért véget, bevezetve a nukleáris fegyverkezés és elrettentés korát.",
+    "mediaType": "image",
+    "mediaUrl": "https://img.hvg.hu/Img/8133bb77-3fc3-490f-b374-cb198a0455cc/9a80075d-0a36-42c5-b16c-b66a9a0ec26a.png",
+    "sources": [
+      { "name": "Wikipédia - Második világháború", "url": "https://hu.wikipedia.org/wiki/M%C3%A1sodik_vil%C3%A1gh%C3%A1bor%C3%BA" },
+      { "name": "Encyclopædia Britannica - World War II", "url": "https://www.britannica.com/event/World-War-II" }
+    ]
   }
 ]
