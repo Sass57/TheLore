@@ -50,6 +50,24 @@
     "category": "Újkor",
     "importance": "major",
     "shortDesc": "Kolumbusz Kristóf eléri a Karib-térséget, megnyitva az újkor kapuját."
+  },
+  {
+    "id": 15,
+    "title": "Az Első Ember a Holdon (Apollo 11)",
+    "year": 1969,
+    "month": 7,
+    "category": "Modern Kor",
+    "importance": "major",
+    "shortDesc": "Neil Armstrong és Buzz Aldrin az első emberek a Hold felszínén."
+  },
+  {
+    "id": 17,
+    "title": "A Generatív Mesterséges Intelligencia Áttörése",
+    "year": 2022,
+    "month": 11,
+    "category": "Jelenkor",
+    "importance": "major",
+    "shortDesc": "A ChatGPT és a nagy nyelvi modellek (LLM) globális elterjedése."
   }
 ]
 
