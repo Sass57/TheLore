@@ -302,5 +302,356 @@
       { "name": "Wikipédia - III. Alexandrosz makedón király", "url": "https://hu.wikipedia.org/wiki/III._Alexandrosz_maked%C3%B3n_kir%C3%A1ly" },
       { "name": "Encyclopædia Britannica - Alexander the Great", "url": "https://www.britannica.com/biography/Alexander-the-Great" }
     ]
+  },
+   {
+    "id": 18,
+    "title": "A Globális Űrkutatás Új Korszaka (2026)",
+    "year": 2026,
+    "month": 3,
+    "category": "Jelenkor",
+    "importance": "minor",
+    "shortDesc": "Az Artemis-program és a kereskedelmi űrállomások előretörése.",
+    "fullDesc": "A 2026-os év a mélyűrkutatás és a fenntartható holdi jelenlét előkészítésének központi mérföldköve.",
+    "mediaType": "image",
+    "mediaUrl": "https://images.unsplash.com/photo-1517976487492-5750f3195933?auto=format&fit=crop&w=1200&q=80",
+    "sources": [
+      { "name": "Wikipédia - Artemis-program", "url": "https://hu.wikipedia.org/wiki/Artemis-program" },
+      { "name": "NASA - Artemis Program", "url": "https://www.nasa.gov/artemisprogram" }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Nagy Sándor Hadjáratai",
+    "year": -334,
+    "month": 5,
+    "category": "Ókor",
+    "importance": "minor",
+    "shortDesc": "A makedón uralkodó meghódítja a Perzsa Birodalmat, elindítva a hellenizmus korszakát.",
+    "fullDesc": "Nagy Sándor alig egy évtized leforgása alatt az Indus folyóig terjesztette ki birodalmát. Hadjáratai nyomán a görög kultúra, tudomány és nyelv összefonódott a keleti civilizációkkal.",
+    "mediaType": "image",
+    "mediaUrl": "https://ma7media.storage.googleapis.com/sites/default/files/styles/nagykep_large/s3/migrated/pictures/egyeb-kepek-02/ma7-rivalisok-1.jpg.webp?itok=lWghPent",
+    "sources": [
+      { "name": "Wikipédia - III. Alexandrosz makedón király", "url": "https://hu.wikipedia.org/wiki/III._Alexandrosz_maked%C3%B3n_kir%C3%A1ly" },
+      { "name": "Encyclopædia Britannica - Alexander the Great", "url": "https://www.britannica.com/biography/Alexander-the-Great" }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "A Selyemút Kialakulása",
+    "year": -130,
+    "month": null,
+    "category": "Ókor",
+    "importance": "minor",
+    "shortDesc": "Kereskedelmi útvonalhálózat jön létre Kelet-Ázsia és a Földközi-tenger térsége között.",
+    "fullDesc": "A Han-dinasztia terjeszkedése révén kiépült úthálózat nemcsak az áruk (selyem, puskapor, papír), hanem a vallási és filozófiai eszmék áramlásának is fő csatornájává vált.",
+    "mediaType": "image",
+    "mediaUrl": "https://img.kinaon.com/ujselyemut.jpg",
+    "sources": [
+      { "name": "Wikipédia - Selyemút", "url": "https://hu.wikipedia.org/wiki/Selyem%C3%BAt" },
+      { "name": "UNESCO - About the Silk Roads", "url": "https://en.unesco.org/silkroad/about-silk-roads" }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "A Római Császárság Megszületése",
+    "year": -27,
+    "month": 1,
+    "category": "Ókor",
+    "importance": "minor",
+    "shortDesc": "Augustus lesz Róma első császára, lezárva a polgárháborúkat és elindítva a Pax Romanát.",
+    "fullDesc": "Octavianus Augustus néven megragadta az egyeduralmat, lezárva a köztársaság válságát. Létrehozta a modern európai jogrendet és infrastruktúrát máig formáló principátus rendszerét.",
+    "mediaType": "image",
+    "mediaUrl": "https://images.unsplash.com/photo-1529260830199-42c24126f198?auto=format&fit=crop&w=1200&q=80",
+    "sources": [
+      { "name": "Wikipédia - Augustus római császár", "url": "https://hu.wikipedia.org/wiki/Augustus_r%C3%B3mai_cs%C3%A1sz%C3%A1r" },
+      { "name": "Encyclopædia Britannica - Augustus", "url": "https://www.britannica.com/biography/Augustus-Roman-emperor" }
+    ]
+  },
+    {
+    "id": 22,
+    "title": "A Fekete Halál Európában",
+    "year": 1347,
+    "month": 10,
+    "category": "Középkor",
+    "importance": "minor",
+    "shortDesc": "Pusztító pestisjárvány söpör végig a kontinensen, elpusztítva a lakosság harmadát.",
+    "fullDesc": "A genovai gályákon érkező bubópestis négy év alatt elpusztította Európa lakosságának harmadát. A fellépő munkaerőhiány és bérrobbanás megrengette a feudális jobbágyrendszert.",
+    "mediaType": "image",
+    "mediaUrl": "https://agytoro.hu/wp-content/uploads/2022/02/pestisdoktor-wikipedia-1024x576.jpg",
+    "sources": [
+      { "name": "Wikipédia - Fekete halál", "url": "https://hu.wikipedia.org/wiki/Fekete_hal%C3%A1l" },
+      { "name": "Encyclopædia Britannica - Black Death", "url": "https://www.britannica.com/event/Black-Death" }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Konstantinápoly Eleste",
+    "year": 1453,
+    "month": 5,
+    "category": "Középkor",
+    "importance": "minor",
+    "shortDesc": "II. Mehmed oszmán szultán beveszi Konstantinápolyt, véget vetve a Bizánci Birodalomnak.",
+    "fullDesc": "A Keletrómai Birodalom bukása és az oszmán vámok miatt a szárazföldi selyemút járhatatlanná vált, ami közvetlenül kényszerítette ki az új óceáni utak keresését India felé.",
+    "mediaType": "image",
+    "mediaUrl": "https://archeologia.hu/content/archeologia/296/w590/02.jpg",
+    "sources": [
+      { "name": "Wikipédia - Konstantinápoly eleste", "url": "https://hu.wikipedia.org/wiki/Konstantin%C3%A1poly_eleste" },
+      { "name": "Encyclopædia Britannica - Fall of Constantinople", "url": "https://www.britannica.com/event/Fall-of-Constantinople-1453" }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "A Protestáns Reformáció Kezdete",
+    "year": 1517,
+    "month": 10,
+    "category": "Újkor",
+    "importance": "minor",
+    "shortDesc": "Martin Luther közzéteszi 95 tételét Wittenbergben a búcsúcédulák ellen.",
+    "fullDesc": "A katolikus egyház reformjaként indult mozgalom átrendezte Európa vallási térképét, felgyorsította az anyanyelvi oktatást és a könyvnyomtatás tömegessé válását.",
+    "mediaType": "image",
+    "mediaUrl": "https://ng.24.hu/uploads/2022/11/GettyImages-515794749-e1668081936721.jpg",
+    "sources": [
+      { "name": "Wikipédia - Reformáció", "url": "https://hu.wikipedia.org/wiki/Reform%C3%A1ci%C3%B3" },
+      { "name": "Encyclopædia Britannica - Reformation", "url": "https://www.britannica.com/event/Reformation" }
+    ]
+  },
+    {
+    "id": 25,
+    "title": "A Francia Forradalom Kitörése",
+    "year": 1789,
+    "month": 7,
+    "category": "Újkor",
+    "importance": "minor",
+    "shortDesc": "A Bastille ostromával kezdetét veszi a modern demokráciák alapjait lerakó forradalom.",
+    "fullDesc": "A harmadik rend lázadása felszámolta az abszolutizmust. Az Emberi és Polgári Jogok Nyilatkozata lefektette a jogegyenlőség és az egyéni szabadságjogok egyetemes alapelveit.",
+    "mediaType": "image",
+    "mediaUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Jacques-Louis_David_-_Serment_du_Jeu_de_paume%2C_le_20_juin_1789_-_P67_-_mus%C3%A9e_Carnavalet_-_0.jpg?utm_source=hu.wikipedia.org&utm_campaign=index&utm_content=original",
+    "sources": [
+      { "name": "Wikipédia - Francia forradalom", "url": "https://hu.wikipedia.org/wiki/Francia_forradalom" },
+      { "name": "Encyclopædia Britannica - French Revolution", "url": "https://www.britannica.com/event/French-Revolution" }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "A Második Ipari Forradalom",
+    "year": 1870,
+    "month": null,
+    "category": "Modern Kor",
+    "importance": "minor",
+    "shortDesc": "A villamosítás, a belső égésű motorok és a vegyipar átalakítja a tömeggyártást.",
+    "fullDesc": "Az elektromos hálózatok, az acélgyártás és a futószalagos termelés elterjedése modern fogyasztói társadalmat és gyors ütemű urbanizációt eredményezett.",
+    "mediaType": "image",
+    "mediaUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjZqeP6Jg_vT4fFbw4tKNZr2HJBzJt_LjrRZPd7KJc0GSotGyLswNnt2Y&s=10",
+    "sources": [
+      { "name": "Wikipédia - Második ipari forradalom", "url": "https://hu.wikipedia.org/wiki/M%C3%A1sodik_ipari_forradalom" },
+      { "name": "History.com - Industrial Revolution", "url": "https://www.history.com/topics/industrial-revolution" }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "A Második Világháború és az Atomkor Kezdete",
+    "year": 1939,
+    "month": 9,
+    "category": "Modern Kor",
+    "importance": "major",
+    "shortDesc": "A történelem legpusztítóbb globális konfliktusa lezárásakor megjelenik az atomfegyver.",
+    "fullDesc": "A tengelyhatalmak és a szövetségesek összecsapása 1945-ben a hirosimai és nagaszaki atomtámadásokkal ért véget, bevezetve a nukleáris fegyverkezés és elrettentés korát.",
+    "mediaType": "image",
+    "mediaUrl": "https://img.hvg.hu/Img/8133bb77-3fc3-490f-b374-cb198a0455cc/9a80075d-0a36-42c5-b16c-b66a9a0ec26a.png",
+    "sources": [
+      { "name": "Wikipédia - Második világháború", "url": "https://hu.wikipedia.org/wiki/M%C3%A1sodik_vil%C3%A1gh%C3%A1bor%C3%BA" },
+      { "name": "Encyclopædia Britannica - World War II", "url": "https://www.britannica.com/event/World-War-II" }
+    ]
+  },
+    {
+    "id": 28,
+    "title": "A DNS Kettős Spirál Szerkezetének Felfedezése",
+    "year": 1953,
+    "month": 4,
+    "category": "Modern Kor",
+    "importance": "major",
+    "shortDesc": "James Watson és Francis Crick leírják az örökítőanyag molekuláris felépítését.",
+    "fullDesc": "Rosalind Franklin röntgendiffrakciós adatait felhasználva leírták a kettős spirál szerkezetet, amely megalapozta a modern genetikát és az orvosi géntechnológiát.",
+    "mediaType": "image",
+    "mediaUrl": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=1200&q=80",
+    "sources": [
+      { "name": "Wikipédia - DNS", "url": "https://hu.wikipedia.org/wiki/DNS" },
+      { "name": "Nature - Molecular Structure of Nucleic Acids", "url": "https://www.nature.com/articles/171737a0" }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "A Berlini Fal Leomlása",
+    "year": 1989,
+    "month": 11,
+    "category": "Modern Kor",
+    "importance": "minor",
+    "shortDesc": "A kelet- és nyugat-berlini határ megnyitása a hidegháború szimbolikus végét jelzi.",
+    "fullDesc": "A békés tömegtüntetések következtében a határ megnyílt, ami közvetlenül vezetett Németország egyesüléséhez és a keleti blokk összeomlásához.",
+    "mediaType": "image",
+    "mediaUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA5OHfIdIbJcXvVXkGelgJjkB4y1hlMNUdBhP6WeOUBw&s=10",
+    "sources": [
+      { "name": "Wikipédia - Berlini fal", "url": "https://hu.wikipedia.org/wiki/Berlini_fal" },
+      { "name": "Encyclopædia Britannica - Berlin Wall", "url": "https://www.britannica.com/topic/Berlin-Wall" }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "A Föld Első Körülhajózása (Magellán-expedíció)",
+    "year": 1519,
+    "month": 9,
+    "category": "Újkor",
+    "importance": "minor",
+    "shortDesc": "Fernão de Magalhães és Juan Sebastián Elcano expedíciója körbehajózza a Földet.",
+    "fullDesc": "A spanyol flotta átkelt a Csendes-óceánra nyíló szoroson. Magellán halála után a Victoria hajó Elcano vezetésével tért vissza, bizonyítva a Föld összefüggő óceánrendszerét.",
+    "mediaType": "image",
+    "mediaUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrBVYV-HDxzyo7M3JtXB45uG4hnJiGY8oTseTnYPqmvAjSk6_hlf1Ihsk&s=10",
+    "sources": [
+      { "name": "Wikipédia - Ferdinand Magellan", "url": "https://hu.wikipedia.org/wiki/Ferdinand_Magellan" },
+      { "name": "Encyclopædia Britannica - Ferdinand Magellan", "url": "https://www.britannica.com/biography/Ferdinand-Magellan" }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "A Tudományos Forradalom és Newton Főműve",
+    "year": 1687,
+    "month": 7,
+    "category": "Újkor",
+    "importance": "minor",
+    "shortDesc": "Isaac Newton közzéteszi a Principia-t, lefektetve a klasszikus mechanika alapjait.",
+    "fullDesc": "Newton leírta az egyetemes tömegvonzás és a mozgás alaptörvényeit, egységes matematikai keretbe foglalva a földi mechanikát és a bolygópályák mozgását.",
+    "mediaType": "image",
+    "mediaUrl": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&w=1200&q=80",
+    "sources": [
+      { "name": "Wikipédia - Philosophiae Naturalis Principia Mathematica", "url": "https://hu.wikipedia.org/wiki/Philosophiae_Naturalis_Principia_Mathematica" },
+      { "name": "Stanford Encyclopedia of Philosophy - Newton's Principia", "url": "https://plato.stanford.edu/entries/newton-principia/" }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Az Amerikai Függetlenségi Nyilatkozat",
+    "year": 1776,
+    "month": 7,
+    "category": "Újkor",
+    "importance": "minor",
+    "shortDesc": "A tizenhárom észak-amerikai gyarmat kikiáltja elszakadását a Brit Birodalomtól.",
+    "fullDesc": "Thomas Jefferson megfogalmazásában az okmány kinyilvánította az elidegeníthetetlen emberi jogokat és a népfelség elvét, létrehozva a modern kor első szövetségi köztársaságát.",
+    "mediaType": "image",
+    "mediaUrl": "https://images.unsplash.com/photo-1508433957232-3107f5fd5995?auto=format&fit=crop&w=1200&q=80",
+    "sources": [
+      { "name": "Wikipédia - Az Amerikai Egyesült Államok függetlenségi nyilatkozata", "url": "https://hu.wikipedia.org/wiki/Az_Amerikai_Egyes%C3%BClt_%C3%81llamok_f%C3%BCggetlens%C3%A9gi_nyilatkozata" },
+      { "name": "U.S. National Archives - Declaration of Independence", "url": "https://www.archives.gov/founding-docs/declaration" }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "A Himlő Elleni Védőoltás Felfedezése",
+    "year": 1796,
+    "month": 5,
+    "category": "Újkor",
+    "importance": "major",
+    "shortDesc": "Edward Jenner kifejleszti a világ első sikeres vakcináját a tehénhimlő felhasználásával.",
+    "fullDesc": "Jenner felfedezte, hogy a tehénhimlő enyhe fertőzése immunitást ad a gyilkos fekete himlő ellen, megalapozva a védőoltások és a szervezett járványvédelem rendszerét.",
+    "mediaType": "image",
+    "mediaUrl": "https://assets.4cdn.hu/kraken/7b37ZCq4gxPj11ugks.jpeg",
+    "sources": [
+      { "name": "Wikipédia - Edward Jenner", "url": "https://hu.wikipedia.org/wiki/Edward_Jenner" },
+      { "name": "WHO - Smallpox Eradication", "url": "https://www.who.int/health-topics/smallpox" }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "A Népek Tavasza (1848-as Forradalmi Hullám)",
+    "year": 1848,
+    "month": 3,
+    "category": "Újkor",
+    "importance": "minor",
+    "shortDesc": "Párizstól Bécsen át Pest-Budáig forradalmak söpörnek végig Európán a szabadságjogokért.",
+    "fullDesc": "Az alkotmányosságot, polgári szabadságjogokat és nemzeti függetlenséget követelő forradalmak végleg megroppantották a Szent Szövetség abszolutista rendjét Európában.",
+    "mediaType": "image",
+    "mediaUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmdvSGnpporCEh-DSqBKnG44B8g9N6juwt3pWw9At5bQ&s=10",
+    "sources": [
+      { "name": "Wikipédia - 1848-as forradalmak", "url": "https://hu.wikipedia.org/wiki/1848-as_forradalmak" },
+      { "name": "Encyclopædia Britannica - Revolutions of 1848", "url": "https://www.britannica.com/event/Revolutions-of-1848" }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "A Szovjetunió Felbomlása",
+    "year": 1991,
+    "month": 12,
+    "category": "Jelenkor",
+    "importance": "minor",
+    "shortDesc": "A szovjet szuperhatalom összeomlásával véget ér a kétpólusú világrend és a hidegháború.",
+    "fullDesc": "Mihail Gorbacsov lemondásával és a tagállamok szuverenitásának elismerésével a Szovjetunió megszűnt, átadva a helyét a független nemzetállamoknak és a globális piacgazdaságnak.",
+    "mediaType": "image",
+    "mediaUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8fbZaA2EkFTNzQEXYLwAK_bh_iqFCNT9C6laBb2KZUA&s=10",
+    "sources": [
+      { "name": "Wikipédia - A Szovjetunió felbomlása", "url": "https://hu.wikipedia.org/wiki/A_Szovjetuni%C3%B3_felboml%C3%A1sa" },
+      { "name": "Encyclopædia Britannica - Collapse of the Soviet Union", "url": "https://www.britannica.com/event/the-collapse-of-the-Soviet-Union" }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "A 2001. Szeptember 11-i Terrortámadások",
+    "year": 2001,
+    "month": 9,
+    "category": "Jelenkor",
+    "importance": "minor",
+    "shortDesc": "Az Al-Káida támadása New York és Washington ellen átformálja a globális biztonságpolitikát.",
+    "fullDesc": "Eltérített utasszállító gépek pusztították el a World Trade Center ikertornyait és rongálták meg a Pentagont, új korszakot nyitva a terrorizmus elleni aszimmetrikus háborúk történetében.",
+    "mediaType": "image",
+    "mediaUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQABGxuyZnkwEx_YfPO6RL5pGG9yEC7HJjfgd7CSSPDcw&s=10",
+    "sources": [
+      { "name": "Wikipédia - 2001. szeptember 11-ei terrortámadások", "url": "https://hu.wikipedia.org/wiki/2001._szeptember_11-%C3%A9i_terrort%C3%A1mad%C3%A1sok" },
+      { "name": "9/11 Memorial & Museum", "url": "https://www.911memorial.org" }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Az Okostelefon-forradalom (Az első iPhone)",
+    "year": 2007,
+    "month": 6,
+    "category": "Jelenkor",
+    "importance": "minor",
+    "shortDesc": "Megjelenik az érintőkijelzős iPhone, elindítva a modern mobilinternet és appok korszakát.",
+    "fullDesc": "Steve Jobs bemutatta az érintőképernyős, internetképes készüléket, amely az App Store megjelenésével alapjaiban formálta át az emberi kommunikációt, tájékozódást és médiát.",
+    "mediaType": "image",
+    "mediaUrl": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1200&q=80",
+    "sources": [
+      { "name": "Wikipédia - IPhone (első generáció)", "url": "https://hu.wikipedia.org/wiki/IPhone_(els%C5%91_gener%C3%A1ci%C3%B3)" },
+      { "name": "Encyclopædia Britannica - iPhone", "url": "https://www.britannica.com/technology/iPhone" }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "A 2008-as Globális Gazdasági Világválság",
+    "year": 2008,
+    "month": 9,
+    "category": "Jelenkor",
+    "importance": "minor",
+    "shortDesc": "A Lehman Brothers csődjével elszabadul a modern kor legsúlyosabb pénzügyi krízise.",
+    "fullDesc": "Az amerikai jelzálogpiaci összeomlás globális bankválságot idézett elő, amely szigorúbb állami banki szabályozásokhoz és a kriptovaluták megjelenéséhez vezetett.",
+    "mediaType": "image",
+    "mediaUrl": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=1200&q=80",
+    "sources": [
+      { "name": "Wikipédia - 2008-ban kirobbant gazdasági világválság", "url": "https://hu.wikipedia.org/wiki/2008-ban_kirobbant_gazdas%C3%A1gi_vil%C3%A1gv%C3%A1ls%C3%A1g" },
+      { "name": "Federal Reserve History - The Great Recession", "url": "https://www.federalreservehistory.org/essays/great-recession-of-200709" }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "A COVID-19 Világjárvány Kitörése",
+    "year": 2020,
+    "month": 3,
+    "category": "Jelenkor",
+    "importance": "minor",
+    "shortDesc": "A WHO világjárvánnyá nyilvánítja a SARS-CoV-2 vírus okozta globális egészségügyi krízist.",
+    "fullDesc": "A pandémia következtében életbe lépő korlátozások megbénították a világkereskedelmet, miközben soha nem látott mértékben gyorsították fel a digitális távmunkát és az mRNS-vakcinák térnyerését.",
+    "mediaType": "image",
+    "mediaUrl": "https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?auto=format&fit=crop&w=1200&q=80",
+    "sources": [
+      { "name": "Wikipédia - Covid19-pandémia", "url": "https://hu.wikipedia.org/wiki/Covid19-pand%C3%A9mia" }
+    ]
   }
 ]

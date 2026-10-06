@@ -135,3 +135,80 @@ function applyFilters() {
 
   renderTimeline(filtered);
 }
+
+// Modal felugró ablak megnyitása
+window.openModal = function(id) {
+  const event = eventsData.find(e => e.id === id);
+  if (!event || !modalOverlay) return;
+
+  modalTitle.textContent = event.title;
+  modalCategory.className = `badge ${getCategoryClass(event.category)}`;
+  modalCategory.textContent = event.category;
+  modalDate.textContent = formatYear(event.year, event.month);
+  modalDesc.textContent = event.fullDesc;
+
+  // Média (kép vagy beágyazott videó)
+  modalMedia.innerHTML = '';
+  if (event.mediaType === 'image' && event.mediaUrl) {
+    modalMedia.innerHTML = `<img src="${event.mediaUrl}" alt="${event.title}" referrerpolicy="no-referrer" loading="lazy">`;
+  } else if (event.mediaType === 'video' && event.mediaUrl) {
+    modalMedia.innerHTML = `<iframe src="${event.mediaUrl}" title="${event.title}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+  }
+  
+  // Források kirajzolása
+  modalSources.innerHTML = '';
+  if (event.sources && event.sources.length > 0) {
+    event.sources.forEach(src => {
+      const link = document.createElement('a');
+      link.href = src.url;
+      link.target = '_blank';
+      link.rel = 'noopener noreferrer';
+      link.className = 'source-link';
+      link.innerHTML = `🔗 ${src.name}`;
+      modalSources.appendChild(link);
+    });
+  }
+
+  modalOverlay.classList.add('active');
+  document.body.style.overflow = 'hidden';
+};
+
+// Modal bezárása
+function closeModal() {
+  if (!modalOverlay) return;
+  modalOverlay.classList.remove('active');
+  if (modalMedia) modalMedia.innerHTML = ''; // Leállítja a média lejátszást
+  document.body.style.overflow = '';
+}
+
+if (closeModalBtn) closeModalBtn.addEventListener('click', closeModal);
+if (modalOverlay) {
+  modalOverlay.addEventListener('click', (e) => {
+    if (e.target === modalOverlay) closeModal();
+  });
+}
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape' && modalOverlay && modalOverlay.classList.contains('active')) {
+    closeModal();
+  }
+});
+
+// Eseménykezelők hozzárendelése
+if (searchInput) searchInput.addEventListener('input', applyFilters);
+if (eraFilter) eraFilter.addEventListener('change', applyFilters);
+
+if (sortFilter) {
+  sortFilter.addEventListener('change', applyFilters);
+  sortFilter.addEventListener('input', applyFilters);
+}
+
+if (milestoneToggle) {
+  milestoneToggle.addEventListener('change', applyFilters);
+}
+
+if (monthToggle) {
+  monthToggle.addEventListener('change', applyFilters);
+}
+// Inicializálás
+initTimeline();
+
