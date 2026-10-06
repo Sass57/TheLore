@@ -31,6 +31,7 @@ function getCategoryClass(category) {
   };
   return map[category] || '';
 }
+
 // Évszám és dátum formázása
 // Évszám és hónap pontos magyar formázása
 function formatYear(year, month) {
@@ -90,6 +91,7 @@ async function initTimeline() {
 function populateCategoryFilter() {
   if (!eraFilter) return;
  
+  // Megtartjuk az első alapértelmezett "Minden korszak" opciót
   eraFilter.innerHTML = '<option value="all">Minden korszak</option>';
  
   const categories = [...new Set(eventsData.map(e => e.category))];
@@ -136,6 +138,45 @@ function applyFilters() {
   renderTimeline(filtered);
 }
 
+// Idővonal kártyák kirajzolása
+function renderTimeline(events) {
+  if (!timelineContainer) return;
+  timelineContainer.innerHTML = '';
+ 
+  if (countDisplay) {
+    countDisplay.textContent = events.length;
+  }
+
+  if (events.length === 0) {
+    timelineContainer.innerHTML = `
+      <div style="text-align: center; color: var(--text-muted); padding: 3rem;">
+        <p>Nincs a keresési feltételeknek megfelelő esemény.</p>
+      </div>`;
+    return;
+  }
+
+  events.forEach((event, index) => {
+    const side = index % 2 === 0 ? 'left' : 'right';
+    const catClass = getCategoryClass(event.category);
+
+    const item = document.createElement('div');
+    item.className = `timeline-item ${side}`;
+    item.innerHTML = `
+      <div class="timeline-node"></div>
+      <div class="card" onclick="openModal(${event.id})">
+        <div class="card-header-line">
+          <span class="badge ${catClass}">${event.category}</span>
+          <span class="date-pill">${formatYear(event.year, event.month)}</span>
+        </div>
+        <h3 class="card-title">${event.title}</h3>
+        <p class="card-snippet">${event.shortDesc}</p>
+        <div class="card-footer-hint">Részletek megtekintése →</div>
+      </div>
+    `;
+    timelineContainer.appendChild(item);
+  });
+}
+
 // Modal felugró ablak megnyitása
 window.openModal = function(id) {
   const event = eventsData.find(e => e.id === id);
@@ -154,7 +195,7 @@ window.openModal = function(id) {
   } else if (event.mediaType === 'video' && event.mediaUrl) {
     modalMedia.innerHTML = `<iframe src="${event.mediaUrl}" title="${event.title}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
   }
-  
+
   // Források kirajzolása
   modalSources.innerHTML = '';
   if (event.sources && event.sources.length > 0) {
@@ -211,4 +252,3 @@ if (monthToggle) {
 }
 // Inicializálás
 initTimeline();
-

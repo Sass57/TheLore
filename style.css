@@ -244,7 +244,6 @@ input:checked + .slider:before {
   padding: 1rem 0;
 }
 
-
 /* Piros idővonal a középpontban */
 .timeline-container::before {
   content: '';
@@ -377,7 +376,7 @@ input:checked + .slider:before {
   color: var(--era-jelenkor);
   border-color: rgba(236, 72, 153, 0.35);
 }
- 
+
 /* Dátum kijelzés piros kiemeléssel */
 .date-pill {
   font-size: 0.85rem;
@@ -488,7 +487,6 @@ input:checked + .slider:before {
 .modal-body p { font-size: 0.98rem; color: var(--text-main); line-height: 1.7; }
 
 .sources-grid { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-   
 
 /* Forrás linkek */
 .source-link {
@@ -543,5 +541,4 @@ input:checked + .slider:before {
   .modal-overlay { padding: 0.75rem; }
   .modal-card { padding: 1.25rem; }
   .modal-header h2 { font-size: 1.3rem; }
-
 }
