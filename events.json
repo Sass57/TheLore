@@ -3,7 +3,6 @@
     "id": 1,
     "title": "A Föld bolygó kialakulása",
     "year": -4500000000,
-<<<<<<< HEAD
     "month": null,
     "category": "Prehisztórium",
     "importance": "major",
@@ -31,19 +30,11 @@
       { "name": "Wikipédia - Az élet keletkezése", "url": "https://hu.wikipedia.org/wiki/Az_%C3%A9let_keletkez%C3%A9se" },
       { "name": "Encyclopædia Britannica - Origin of Life", "url": "https://www.britannica.com/science/origin-of-life" }
     ]
-=======
-    "category": "Prehisztórium",
-    "importance": "major",
-    "shortDesc": "A Napsugárzás hatására összefényesedő gáz- és porfelhőkből létrejön a Föld bolygó.",
-    "mediaType": "image",
-    "mediaUrl": "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?auto=format&fit=crop&w=1200&q=80"
->>>>>>> origin/Bence
   },
   {
     "id": 3,
     "title": "A Dinoszauruszok Kihalása (K-Pg esemény)",
     "year": -66000000,
-<<<<<<< HEAD
     "month": null,
     "category": "Prehisztórium",
     "importance": "major",
@@ -87,17 +78,11 @@
       { "name": "Wikipédia - Neolitikus forradalom", "url": "https://hu.wikipedia.org/wiki/Neolitikus_forradalom" },
       { "name": "Encyclopædia Britannica - Neolithic", "url": "https://www.britannica.com/event/Neolithic" }
     ]
-=======
-    "category": "Prehisztórium",
-    "importance": "major",
-    "shortDesc": "Egy 10 km átmérőjű meteorit becsapódása véget vet a dinoszauruszok 180 millió éves uralmának."
->>>>>>> origin/Bence
   },
   {
     "id": 6,
     "title": "Az írás feltalálása Mezopotámiában",
     "year": -3300,
-<<<<<<< HEAD
     "month": null,
     "category": "Ókor",
     "importance": "major",
@@ -110,7 +95,7 @@
       { "name": "World History Encyclopedia - Cuneiform", "url": "https://www.worldhistory.org/cuneiform/" }
     ]
   },
-  {
+    {
     "id": 7,
     "title": "A Gízai Nagy Piramis megépítése",
     "year": -2560,
@@ -125,18 +110,11 @@
       { "name": "Wikipédia - Gízai nagy piramis", "url": "https://hu.wikipedia.org/wiki/G%C3%ADzai_nagy_piramis" },
       { "name": "Encyclopædia Britannica - Pyramids of Giza", "url": "https://www.britannica.com/topic/Pyramids-of-Giza" }
     ]
-=======
-    "category": "Ókor",
-    "importance": "major",
-    "shortDesc": "A sumer ékírás kifejlődésével kezdetét veszi az írott világtörténelem.",
-    "fullDesc": "Uruk városában a kereskedelmi nyilvántartások megkönnyítésére agyagtáblákba karcolt jeleket kezdtek használni."
->>>>>>> origin/Bence
   },
   {
     "id": 8,
     "title": "Az Athéni Demokrácia megszületése",
     "year": -508,
-<<<<<<< HEAD
     "month": null,
     "category": "Ókor",
     "importance": "minor",
@@ -180,17 +158,11 @@
       { "name": "Wikipédia - Hidzsra", "url": "https://hu.wikipedia.org/wiki/Hidzsra_(iszl%C3%A1m)" },
       { "name": "Encyclopædia Britannica - Hijrah", "url": "https://www.britannica.com/event/Hijrah-Islamic-history" }
     ]
-=======
-    "category": "Ókor",
-    "importance": "minor",
-    "shortDesc": "Kleiszthenész reformjai megteremtik a világ első közvetlen demokráciáját."
->>>>>>> origin/Bence
   },
   {
     "id": 11,
     "title": "A Könyvnyomtatás Feltalálása",
     "year": 1440,
-<<<<<<< HEAD
     "month": null,
     "category": "Középkor",
     "importance": "major",
@@ -202,11 +174,6 @@
       { "name": "Wikipédia - Johannes Gutenberg", "url": "https://hu.wikipedia.org/wiki/Johannes_Gutenberg" },
       { "name": "Encyclopædia Britannica - Johannes Gutenberg", "url": "https://www.britannica.com/biography/Johannes-Gutenberg" }
     ]
-=======
-    "category": "Középkor",
-    "importance": "major",
-    "shortDesc": "Johannes Gutenberg megalkotja a cserélhető betűs mozgatható könyvnyomtatást."
->>>>>>> origin/Bence
   },
   {
     "id": 12,
@@ -215,7 +182,6 @@
     "month": 10,
     "category": "Újkor",
     "importance": "major",
-<<<<<<< HEAD
     "shortDesc": "Kolumbusz Kristóf eléri a Karib-térséget, megnyitva az újkor kapuját.",
     "fullDesc": "Spanyol zászló alatt hajózva megnyitotta a kontinensek közötti kereskedelmet és a gyarmatosítás korát.",
     "mediaType": "image",
@@ -225,7 +191,7 @@
       { "name": "Encyclopædia Britannica - Christopher Columbus", "url": "https://www.britannica.com/biography/Christopher-Columbus" }
     ]
   },
-  {
+    {
     "id": 13,
     "title": "Az Első Ipari Forradalom Kezdete",
     "year": 1760,
@@ -256,9 +222,6 @@
       { "name": "Wikipédia - Első világháború", "url": "https://hu.wikipedia.org/wiki/Els%C5%91_vil%C3%A1gh%C3%A1bor%C3%BA" },
       { "name": "Encyclopædia Britannica - World War I", "url": "https://www.britannica.com/event/World-War-I" }
     ]
-=======
-    "shortDesc": "Kolumbusz Kristóf eléri a Karib-térséget, megnyitva az újkor kapuját."
->>>>>>> origin/Bence
   },
   {
     "id": 15,
@@ -267,7 +230,6 @@
     "month": 7,
     "category": "Modern Kor",
     "importance": "major",
-<<<<<<< HEAD
     "shortDesc": "Neil Armstrong és Buzz Aldrin az első emberek a Hold felszínén.",
     "fullDesc": "Az űrverseny csúcspontjaként az Apollo 11 legénysége eléri a Holdat. Neil Armstrong történelmi szavai ('Kis lépés egy embernek...') az egész világot összekapcsolták az élő televíziós közvetítésen keresztül.",
     "mediaType": "image",
@@ -292,9 +254,6 @@
       { "name": "Wikipédia - Világháló", "url": "https://hu.wikipedia.org/wiki/Vil%C3%A1gh%C3%A1l%C3%B3" },
       { "name": "CERN - The birth of the Web", "url": "https://home.cern/science/computing/birth-web" }
     ]
-=======
-    "shortDesc": "Neil Armstrong és Buzz Aldrin az első emberek a Hold felszínén."
->>>>>>> origin/Bence
   },
   {
     "id": 17,
@@ -303,7 +262,6 @@
     "month": 11,
     "category": "Jelenkor",
     "importance": "major",
-<<<<<<< HEAD
     "shortDesc": "A ChatGPT és a nagy nyelvi modellek (LLM) globális elterjedése.",
     "fullDesc": "Az MI belép a mindennapi életbe, képes szövegeket írni, kódolni, művészeti és tudományos feladatokat megoldani.",
     "mediaType": "image",
@@ -314,6 +272,38 @@
     ]
   },
   {
+    "id": 18,
+    "title": "A Globális Űrkutatás Új Korszaka (2026)",
+    "year": 2026,
+    "month": 3,
+    "category": "Jelenkor",
+    "importance": "minor",
+    "shortDesc": "Az Artemis-program és a kereskedelmi űrállomások előretörése.",
+    "fullDesc": "A 2026-os év a mélyűrkutatás és a fenntartható holdi jelenlét előkészítésének központi mérföldköve.",
+    "mediaType": "image",
+    "mediaUrl": "https://images.unsplash.com/photo-1517976487492-5750f3195933?auto=format&fit=crop&w=1200&q=80",
+    "sources": [
+      { "name": "Wikipédia - Artemis-program", "url": "https://hu.wikipedia.org/wiki/Artemis-program" },
+      { "name": "NASA - Artemis Program", "url": "https://www.nasa.gov/artemisprogram" }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Nagy Sándor Hadjáratai",
+    "year": -334,
+    "month": 5,
+    "category": "Ókor",
+    "importance": "minor",
+    "shortDesc": "A makedón uralkodó meghódítja a Perzsa Birodalmat, elindítva a hellenizmus korszakát.",
+    "fullDesc": "Nagy Sándor alig egy évtized leforgása alatt az Indus folyóig terjesztette ki birodalmát. Hadjáratai nyomán a görög kultúra, tudomány és nyelv összefonódott a keleti civilizációkkal.",
+    "mediaType": "image",
+    "mediaUrl": "https://ma7media.storage.googleapis.com/sites/default/files/styles/nagykep_large/s3/migrated/pictures/egyeb-kepek-02/ma7-rivalisok-1.jpg.webp?itok=lWghPent",
+    "sources": [
+      { "name": "Wikipédia - III. Alexandrosz makedón király", "url": "https://hu.wikipedia.org/wiki/III._Alexandrosz_maked%C3%B3n_kir%C3%A1ly" },
+      { "name": "Encyclopædia Britannica - Alexander the Great", "url": "https://www.britannica.com/biography/Alexander-the-Great" }
+    ]
+  },
+   {
     "id": 18,
     "title": "A Globális Űrkutatás Új Korszaka (2026)",
     "year": 2026,
@@ -377,7 +367,7 @@
       { "name": "Encyclopædia Britannica - Augustus", "url": "https://www.britannica.com/biography/Augustus-Roman-emperor" }
     ]
   },
-  {
+    {
     "id": 22,
     "title": "A Fekete Halál Európában",
     "year": 1347,
@@ -425,7 +415,7 @@
       { "name": "Encyclopædia Britannica - Reformation", "url": "https://www.britannica.com/event/Reformation" }
     ]
   },
-  {
+    {
     "id": 25,
     "title": "A Francia Forradalom Kitörése",
     "year": 1789,
@@ -473,7 +463,7 @@
       { "name": "Encyclopædia Britannica - World War II", "url": "https://www.britannica.com/event/World-War-II" }
     ]
   },
-  {
+    {
     "id": 28,
     "title": "A DNS Kettős Spirál Szerkezetének Felfedezése",
     "year": 1953,
@@ -665,9 +655,3 @@
     ]
   }
 ]
-=======
-    "shortDesc": "A ChatGPT és a nagy nyelvi modellek (LLM) globális elterjedése."
-  }
-]
-
->>>>>>> origin/Bence
